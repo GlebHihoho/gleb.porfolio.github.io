@@ -281,7 +281,7 @@ html.fp-enabled, .fp-enabled body {
 }
 
 .section-first__img:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
     transition-duration: 1s
 }
 
