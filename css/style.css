@@ -407,7 +407,8 @@ html.fp-enabled, .fp-enabled body {
     margin-right: 0
 }
 .info__img:nth-last-child(1) {
-    margin-right: 0
+    margin-right: 0;
+    margin-top: 25px
 }
 /* ---------------------------- */
 /* ---- Раздел с контактами --- */
@@ -481,41 +482,33 @@ html.fp-enabled, .fp-enabled body {
     transition-duration: 0.6s;
     transform: scale(1.03)
 }
-.works__block:nth-child(1) {
-    background-color: #27ae60;
-    background-image: url(../img/sedona.jpg);
+.works__block {
     background-size: cover;
     background-repeat: no-repeat
 }
+.works__block:nth-child(1) {
+    background-color: #e74c3c;
+    background-image: url(../img/belseptik.png)
+}
 .works__block:nth-child(2) {
-    background-color: #2980b9;
-    background-image: url(../img/mishka.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
+    background-color: #e74c3c;
+    background-image: url(../img/cleaning.JPG)
 }
 .works__block:nth-child(3) {
     background-color: #e67e22;
-    background-image: url(../img/sudoku.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
+    background-image: url(../img/sudoku.jpg)
 }
 .works__block:nth-child(4) {
     background-color: #e74c3c;
-    background-image: url(../img/keksogram.JPG);
-    background-size: cover;
-    background-repeat: no-repeat
+    background-image: url(../img/keksogram.JPG)
 }
 .works__block:nth-child(5) {
-    background-color: #e74c3c;
-    background-image: url(../img/belseptik.png);
-    background-size: cover;
-    background-repeat: no-repeat
+    background-color: #27ae60;
+    background-image: url(../img/sedona.jpg)
 }
 .works__block:nth-child(6) {
-    background-color: #e74c3c;
-    background-image: url(../img/cleaning.JPG);
-    background-size: cover;
-    background-repeat: no-repeat
+    background-color: #2980b9;
+    background-image: url(../img/mishka.jpg)
 }
 /* ----- Стили всплывающих подсказок ----- */
 .works__block {
